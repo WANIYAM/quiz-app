@@ -1,0 +1,22 @@
+{
+  "name": "wanm-quiz-app",
+  "version": "2.0.0",
+  "description": "A simple quiz app built with Node.js and TypeScript",
+  "main": "dist/main.js",
+  "type": "module",
+  "bin": {
+    "wanm-quiz-app": "dist/main.js"
+  },
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.23"
+  }
+}
